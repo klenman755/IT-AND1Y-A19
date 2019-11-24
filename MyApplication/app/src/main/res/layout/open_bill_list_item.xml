@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/listItem"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/open_bill_opened_at"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="32dp"
+        android:textColor="@color/RockmanBlue"/>
+    <TextView
+        android:id="@+id/open_bill_name_of_bill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="32dp"
+        android:textColor="@color/RockmanBlue"/>
+    <TextView
+        android:id="@+id/open_bill_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="32dp"
+        android:textColor="@color/RockmanBlue"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">WaiterApp</string>
+    <string name="action_favorite">Add to favourites</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_login">login</string>
+    <string name="action_logout">logout</string>
+    <string name="sale_statistics">Sale Statistics</string>
+    <string name="service_unavailable">Service unavailable</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_in">Log in</string>
+    <string name="login_wrong_password">Quick password not recognized</string>
+    <string name="retrofit_error">Something went wrong :(</string>
+    <string name="open_bill_table_no">Table no:</string>
+    <string name="open_bill_bill_name">Bill name</string>
+    <string name="bill_info_approve">Approve</string>
+</resources>

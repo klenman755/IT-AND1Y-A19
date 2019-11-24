@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/open_bill_relative_layout"
+        >
+
+    <include layout="@layout/toolbar_back"
+        android:id="@+id/open_bill_back"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/update_bill_fragment_position_fragment_position">
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/open_bill_back"
+        android:id="@+id/rv_open_bill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listBackground"
+      >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="53dp"
+        app:fabCustomSize="40dp"
+
+
+        fab:fab_addButtonColorNormal="@color/button"
+        fab:fab_addButtonColorPressed="@color/CoolBlack"
+        fab:fab_addButtonPlusIconColor="@color/CoolBlack">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_add_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:src="@drawable/ic_add"
+
+            app:fab_colorNormal="@color/button"
+            app:fab_title="Add item to bill"
+            app:fabCustomSize="40dp"
+
+
+            />
+
+
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_pay_bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pay"
+            app:fab_colorNormal="@color/button"
+
+            app:fab_title="Pay for bill"
+            android:onClick="payBill"
+            app:fabCustomSize="40dp"
+
+
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_update_bill_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            app:fab_colorNormal="@color/button"
+
+
+            android:onClick="updateBill"
+            app:fabCustomSize="40dp"
+
+
+            />
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
+</LinearLayout>

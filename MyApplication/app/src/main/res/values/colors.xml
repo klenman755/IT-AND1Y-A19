@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#003060</color>
+    <color name="colorPrimary">#003060</color>
+    <color name="colorAccent">#003060</color>
+
+    <color name="listBackground">#30a8f0</color>
+    <color name="listItem">#0060c0</color>
+    <color name="button">#78d8f0</color>
+    <!--palette colours Cool Blues Color Palette https://diariesofanessexgirl.com/cool-blues-color-palette/ -->
+    <color name="CoolBlack">#003060</color>
+    <color name="CongressBlue">#004890</color>
+    <color name="SapphireBlue">#0060c0</color>
+    <color name="RockmanBlue">#30a8f0</color>
+    <color name="MediumSkyBlue">#78d8f0</color>
+
+<!--1,2,3,7,5, -->
+
+</resources>
