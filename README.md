@@ -9,3 +9,5 @@ gs-rest-service-initial -> simple web service which is pretending to be a real A
 
 The web service was tested while running at http://localhost:8080, the android app was tested while being on the same network as
 the webservice, the address of the web service is stated in the app in file ServiceGenerator.JAVA
+
+https://www.youtube.com/watch?v=wQ4-ZnwFNKE
