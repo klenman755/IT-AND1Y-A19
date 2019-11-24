@@ -145,6 +145,7 @@ public class OpenBillActivity extends AppCompatActivity implements BillItemsAdap
                 Intent intent = new Intent(this, OpenBillsActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 startActivity(intent);
+		finish();
 
         }
         return super.onOptionsItemSelected(item);
