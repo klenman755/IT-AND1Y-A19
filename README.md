@@ -1,5 +1,6 @@
 # IT-AND1Y-A19
 IT-AND1Y-A19 course asignment
+
 This repository contains 2 projects:
 MyApplication -> Android application - waiter app
 gs-rest-service-initial -> simple web service which is pretendind to be a real API with which the application is communicating.
